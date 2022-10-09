@@ -1,0 +1,17 @@
+[package]
+name = "testing_assignment_02_bowling"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"
+
+[dev-dependencies]
+    cucumber = "0.15"
+    futures = "0.3"
+
+[[test]]
+    name = "tests" # this should be the same as the filename of your test target
+    harness = false  # allows Cucumber to print output instead of libtest
