@@ -1,0 +1,12 @@
+Feature: Capitalize string
+
+
+    Scenario: When a text string is entered, it must be output with all letters capitalized
+        Given a string of text
+        When The text is <text>
+        Then the output is <capitalizedText>
+
+        Examples:
+            | text         | reverseText    |
+            | hello world  | HELLO WORLD    |
+            | fOObaR       | FOOBAR         |
