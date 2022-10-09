@@ -18,6 +18,7 @@ Computer mouse units:
 - Scroll Wheel button
 - Move the mouse to the right, left, up, down (reaction)
 - Other mouse buttons
+- PC connection (cable, bluetooth, etc...)
 
 ### Level
 
