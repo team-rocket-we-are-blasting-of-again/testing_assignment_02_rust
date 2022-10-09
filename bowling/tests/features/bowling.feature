@@ -34,5 +34,7 @@
         Then A frame has been saved, and score is calculated with the correct bonuses.
 
         Examples:
-            | score | state | total | previous_score | previous_state |
-            | 10    | SPARE | 10    | 
+            | score | state     | previous_score | previous_state |
+            | 10    | SPARE     | 10             | STRIKE         |
+            | 8     | COMPLETED | 10             | SPARE          |
+            | 5     | COMPLETED | 8              | COMPLETED      |
